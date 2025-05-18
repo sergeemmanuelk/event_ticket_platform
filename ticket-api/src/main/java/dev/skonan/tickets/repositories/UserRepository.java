@@ -1,6 +1,6 @@
 package dev.skonan.tickets.repositories;
 
-import dev.skonan.tickets.domain.User;
+import dev.skonan.tickets.domain.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

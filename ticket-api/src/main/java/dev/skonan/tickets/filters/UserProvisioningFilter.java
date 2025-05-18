@@ -1,6 +1,6 @@
 package dev.skonan.tickets.filters;
 
-import dev.skonan.tickets.domain.User;
+import dev.skonan.tickets.domain.entities.User;
 import dev.skonan.tickets.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

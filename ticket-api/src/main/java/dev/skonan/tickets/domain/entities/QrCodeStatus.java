@@ -1,4 +1,4 @@
-package dev.skonan.tickets.domain;
+package dev.skonan.tickets.domain.entities;
 
 public enum QrCodeStatus {
     ACTIVE,
