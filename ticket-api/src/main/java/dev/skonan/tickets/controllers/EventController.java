@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.UUID;
 
 @RestController
-@RequestMapping(params = "events")
+@RequestMapping(path = "events")
 @RequiredArgsConstructor
 public class EventController {
 
