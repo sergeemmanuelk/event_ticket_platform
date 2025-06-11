@@ -5,7 +5,9 @@ services:
       - 5432:5432
     restart: always
     environment:
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root
+      POSTGRES_DB: event_ticket_db
 
   adminer:
     image: adminer:latest
